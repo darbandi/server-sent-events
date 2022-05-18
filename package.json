@@ -17,12 +17,11 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "server": "node server",
-    "dev": "concurrently --kill-others \"yarn server\" \"yarn start\""
+    "start": "concurrently --kill-others \"yarn server\" \"react-scripts start\""
   },
   "eslintConfig": {
     "extends": [
